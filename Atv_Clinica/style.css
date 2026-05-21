@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(196, 254, 252);
+}
+
+#titulo-clinica {
+    color: rgb(0, 72, 126);
+    text-align: center;
+}
+
+.bemvindo {
+    color: rgb(0, 72, 126);
+    text-align: center;
+}
+
+#serviços {
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    width: 750px;
+    box-shadow: 0px 4px 10px rgb(0, 72, 126);
+}
+
+#Médicos {
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    width: 750px;
+    box-shadow: 0px 4px 10px rgb(0, 72, 126);
+}
+
+#Aviso {
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    width: 750px;
+    box-shadow: 0px 4px 10px rgb(0, 72, 126);
+}
+
+.Depoimento {
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    width: 750px;
+    box-shadow: 0px 4px 10px rgb(0, 72, 126);
+}
+
+h4 {
+    text-align: center;
+    color: rgb(0, 72, 126);
+}
+
+h5 {
+    text-align: center;
+    color: rgb(0, 72, 126);
+}
