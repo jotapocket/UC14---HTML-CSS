@@ -1,0 +1,51 @@
+:root {
+    --cor-primaria: blue;
+    --cor-secundaria: rgb(113, 84, 255);
+    --cor-fundo: rgb(217, 220, 255);
+    --cor-texto: rgb(0, 0, 85);
+    --cor-branca: white;
+
+    --fonte-principal: Arial, sans-serif;
+
+    --borda-radius: 10px;
+    --sombra: 0 4px 10px rgb(0, 0, 85);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa {
+    background-color: var(--cor-branca);
+    padding: 30px;
+    border-radius: var(--borda-radius);
+    box-shadow: var(--sombra);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: var(--cor-primaria);
+}
+
+button {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--borda-radius);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-secundaria);
+}
