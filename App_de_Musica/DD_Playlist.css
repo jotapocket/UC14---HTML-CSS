@@ -1,0 +1,28 @@
+:root {
+    --cor-primaria: orange;
+    --cor-secundaria: rgb(254, 201, 103);
+    --cor-fundo: black;
+    --cor-terciaria: rgb(57, 37, 0);
+    --cor-branca: white;
+
+    --fonte-principal: Arial, sans-serif;
+
+    --borda-radius: 10px;
+    --sombra: 0px 4px 10px rgb(57, 37, 0);
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+ul {
+    border: var(--borda-radius);
+    border: 1px solid var(--cor-terciaria);
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    color: var(--cor-secundaria);
+}
