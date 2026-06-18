@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #ff0000;
+    --secondary-color: #f9f9f9;
+    --font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+nav ul {
+    gap: 20px;
+    display: flex;
+    color: var(--secondary-color);
+    list-style: none;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: auto;
+    height: 40px;
+    object-fit: contain;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.pratos-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: mandatory;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.prato {
+  flex: 0 0 calc(33.33% - 10px); /* Define 3 itens visíveis por vez na tela */
+  scroll-snap-align: center; /* Alinha o item ao centro ao parar a rolagem */
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
